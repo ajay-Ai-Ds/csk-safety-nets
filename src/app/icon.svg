@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cskFavCrimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C0272D" />
+      <stop offset="100%" stopColor="#A61E22" />
+    </linearGradient>
+    <linearGradient id="cskFavGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#E8C84A" />
+      <stop offset="100%" stopColor="#D4AF37" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Squircle Crimson Shield -->
+  <rect x="5" y="5" width="90" height="90" rx="26" fill="url(#cskFavCrimson)" stroke="url(#cskFavGold)" stroke-width="3.5" />
+
+  <!-- Bold 'C' Monogram -->
+  <path d="M 67 34 A 26 26 0 1 0 67 66"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="9"
+        stroke-linecap="round" />
+
+  <!-- Gold Accent Dot -->
+  <circle cx="67" cy="50" r="4.5" fill="url(#cskFavGold)" />
+</svg>

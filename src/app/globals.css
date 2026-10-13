@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #FDF8F5;
+  --color-primary-100: #FCECE9;
+  --color-primary-200: #F8D5D0;
+  --color-primary-300: #EFABA4;
+  --color-primary-400: #E27970;
+  --color-primary-500: #D14B42;
+  --color-primary-600: #BC2B2E;
+  --color-primary-700: #A61E22;
+  --color-primary-800: #881B1E;
+  --color-primary-900: #7A1417;
+  
+  --color-crimson-dark: #7A1417;
+  --color-crimson-primary: #A61E22;
+  --color-crimson-light: #C1383D;
+  
+  --color-accent-gold: #D4AF37;
+  --color-accent-gold-light: #E6C65A;
+  --color-accent-gold-dark: #B89420;
+  --color-highlight-cream: #F5E6C8;
+  
+  --color-success-green: #25D366;
+  --color-bg-light: #FAFAFA;
+  --color-border-subtle: #E2E8F0;
+  
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  
+  --font-sans: var(--font-inter), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #A61E22;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Text Gradient Utility */
+.text-gradient {
+  background: linear-gradient(135deg, #A61E22 0%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Crimson & Gold CTA Button Utilities */
+.btn-primary-teal, .btn-primary-accent, .btn-accent, .btn-primary-crimson {
+  background: linear-gradient(135deg, #A61E22 0%, #D4AF37 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px rgba(166, 30, 34, 0.35);
+  transition: all 300ms ease;
+}
+.btn-primary-teal:hover, .btn-primary-accent:hover, .btn-accent:hover, .btn-primary-crimson:hover {
+  background: linear-gradient(135deg, #D4AF37 0%, #A61E22 100%);
+  color: #ffffff;
+  box-shadow: 0 15px 30px rgba(166, 30, 34, 0.50);
+  transform: translateY(-2px);
+}
+
+.btn-amber, .btn-gold {
+  background: linear-gradient(135deg, #D4AF37 0%, #E6C65A 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.35);
+  transition: all 300ms ease;
+}
+.btn-amber:hover, .btn-gold:hover {
+  background: linear-gradient(135deg, #E6C65A 0%, #D4AF37 100%);
+  color: #ffffff;
+  box-shadow: 0 15px 30px rgba(212, 175, 55, 0.50);
+  transform: translateY(-2px);
+}
+
+.btn-secondary-teal, .btn-secondary-crimson {
+  background: transparent;
+  border: 2px solid #D4AF37;
+  color: #ffffff;
+  border-radius: 9999px;
+  transition: all 300ms ease;
+}
+.btn-secondary-teal:hover, .btn-secondary-crimson:hover {
+  background: #D4AF37;
+  color: #1a1a1a;
+  transform: translateY(-2px);
+}
+
+/* Card Hover Animation Utility */
+.card-premium {
+  background: #ffffff;
+  border: 1px solid #E2E8F0;
+  border-radius: 1rem;
+  transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px -10px rgba(166, 30, 34, 0.08);
+  border-color: #D4AF37;
+}
+
+/* Glassmorphism utilities */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
