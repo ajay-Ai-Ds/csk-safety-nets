@@ -255,7 +255,7 @@ export default async function ServiceLocationPage({ params }: PageProps) {
               {/* Instant Call & WhatsApp CTAs */}
               <div className="flex flex-wrap items-center gap-3 pt-4">
                 <a
-                  href="tel:+91 79819 10891"
+                  href="tel:+917981910891"
                   className="flex items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-[#D4AF37] to-[#01579B] hover:from-[#039BE5] hover:to-[#D4AF37] text-white font-extrabold text-sm rounded-2xl shadow-xl shadow-sky-950/40 hover:scale-[1.02] transition-transform"
                 >
                   <Phone className="w-4 h-4 animate-bounce" />
@@ -562,7 +562,7 @@ export default async function ServiceLocationPage({ params }: PageProps) {
       {/* Sticky Mobile Bottom Conversion Bar */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 p-3 flex items-center gap-2 shadow-2xl">
         <a
-          href="tel:+91 79819 10891"
+          href="tel:+917981910891"
           className="flex-1 py-3 px-3 bg-[#D4AF37] text-white text-xs font-extrabold rounded-xl flex items-center justify-center gap-1.5 shadow-md active:scale-95 transition-transform"
         >
           <Phone className="w-4 h-4" />

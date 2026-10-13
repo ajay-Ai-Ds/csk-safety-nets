@@ -66,7 +66,7 @@ export function ServiceHero({ name, categoryName, title, subtitle, aiOverview, i
             {/* Primary Action Buttons */}
             <div className="flex flex-wrap gap-4 mt-4 w-full sm:w-auto">
               <a
-                href="tel:+91 79819 10891"
+                href="tel:+917981910891"
                 className="w-full sm:w-auto flex items-center justify-center gap-2.5 bg-[#D4AF37] text-white font-bold px-6 py-4 rounded-full hover:bg-accent-hover transition-colors shadow-lg hover:shadow-xl text-sm"
               >
                 <Phone className="w-4 h-4" />
@@ -132,7 +132,7 @@ export function ServiceStickyBar({ name }: { name: string }) {
 
             <div className="flex items-center gap-3 w-full md:w-auto">
               <a
-                href="tel:+91 79819 10891"
+                href="tel:+917981910891"
                 className="flex-1 md:flex-none flex items-center justify-center gap-2 bg-[#D4AF37] text-white font-bold px-5 py-3 rounded-full hover:bg-accent-hover text-xs sm:text-sm shadow-xs transition-colors"
               >
                 <Phone className="w-3.5 h-3.5" />

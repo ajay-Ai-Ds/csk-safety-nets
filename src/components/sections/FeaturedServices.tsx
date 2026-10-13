@@ -215,7 +215,7 @@ export default function FeaturedServices() {
                           <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" />
                         </Link>
                         <a
-                          href="tel:7981910891"
+                          href="tel:+917981910891"
                           className="bg-[#D4AF37]/15 hover:bg-[#D4AF37] text-[#A61E22] hover:text-white font-bold py-3 px-3.5 rounded-xl text-xs flex items-center justify-center gap-1.5 transition-all"
                           title="Call for immediate quote"
                         >
@@ -256,7 +256,7 @@ export default function FeaturedServices() {
           </div>
           <div className="flex flex-col sm:flex-row gap-3 shrink-0 w-full sm:w-auto">
             <a
-              href="tel:7981910891"
+              href="tel:+917981910891"
               className="bg-[#D4AF37] hover:bg-[#E6C65A] text-white font-black px-6 py-3.5 rounded-xl text-sm flex items-center justify-center gap-2 shadow-md transition-all cursor-pointer"
             >
               <Phone className="w-4 h-4" />
