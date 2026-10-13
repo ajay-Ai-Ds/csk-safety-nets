@@ -22,11 +22,11 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!serviceDetail) {
     return {
-      title: "Service Not Found | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+      title: "Service Not Found | CSK Safety Nets & Invisible Grills",
     };
   }
 
-  const title = `${serviceDetail.name} | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka`;
+  const title = `${serviceDetail.name} | CSK Safety Nets & Invisible Grills`;
   const description = `${serviceDetail.description} Professional installation by CSK Safety Nets & Invisible Grills in Bangalore across Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.`;
 
   return {

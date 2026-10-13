@@ -18,7 +18,7 @@ import { generateLocalBusinessSchema } from "@/utils/schema";
 export const metadata: Metadata = {
   title: {
     default: "CSK Safety Nets & Invisible Grills | Bangalore, Karnataka",
-    template: "%s | CSK Safety Nets & Invisible Grills — Bangalore",
+    template: "%s",
   },
   description:
     "CSK Safety Nets & Invisible Grills delivers premium balcony safety nets, child fall protection, invisible wire grills, and anti-pigeon solutions across Bangalore — Sarjapur Road, Bellandur, Hennur, Rajajinagar, Malleshwaram, Basavanagudi, Koramangala & more. Same-week installation. Written warranty.",

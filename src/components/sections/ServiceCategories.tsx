@@ -58,7 +58,7 @@ export default function ServiceCategories() {
             High-Altitude Protection &amp; Space Optimization
           </h2>
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Engineered specifically to withstand Bangalore, Karnataka&apos;s coastal climate while safeguarding high-rise homes and commercial properties.
+            Engineered specifically to withstand Bangalore&apos;s outdoor climate and heavy monsoons while safeguarding high-rise homes and commercial properties.
           </p>
         </div>
 

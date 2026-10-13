@@ -30,7 +30,7 @@ const galleryData: GalleryPhoto[] = [
     categoryLabel: "Invisible Grills",
     location: "Koramangala, Bangalore, Karnataka",
     serviceName: "Balcony Invisible Grills",
-    description: "Elegant SS316 steel wire invisible grills offering panoramic coastal views.",
+    description: "Elegant SS316 steel wire invisible grills offering panoramic high-rise skyline views.",
   },
   {
     image: "/images/materials/clothhangerwork.jpeg",

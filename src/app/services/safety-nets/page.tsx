@@ -6,14 +6,14 @@ import { servicesData } from "@/utils/servicesData";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills",
   description:
     "High-tensile UV-treated balcony safety nets, pigeon nets, child protection nets, and pet safety nets installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
   alternates: {
     canonical: "/services/safety-nets",
   },
   openGraph: {
-    title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills",
     description:
       "High-tensile UV-treated balcony safety nets, pigeon nets, child protection nets, and pet safety nets installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/services/safety-nets",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Balcony & Safety Nets | CSK Safety Nets & Invisible Grills",
     description:
       "High-tensile safety nets installed across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

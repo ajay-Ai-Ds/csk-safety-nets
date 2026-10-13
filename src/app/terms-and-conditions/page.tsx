@@ -4,7 +4,7 @@ import { Home, ShieldCheck, Award, HeartHandshake, CheckCircle2, Clock, FileChec
 import { generateBreadcrumbSchema } from "@/utils/schema";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Terms & Conditions | CSK Safety Nets & Invisible Grills",
   description:
     "Official Terms and Conditions for CSK Safety Nets & Invisible Grills. Review our transparent service pricing, 3-to-5 year warranty certificate guidelines, humane bird control standards, and free measurement terms across Bangalore.",
   alternates: {

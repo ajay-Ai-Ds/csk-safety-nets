@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CheckCircle2, ArrowRight, Phone, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Request Received | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Request Received | CSK Safety Nets & Invisible Grills",
   description:
     "Your request for a free site measurement and quote has been successfully received by CSK Safety Nets & Invisible Grills. We will contact you shortly.",
   robots: {

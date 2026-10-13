@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!project) {
     return {
-      title: "Project Not Found | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+      title: "Project Not Found | CSK Safety Nets & Invisible Grills",
     };
   }
 
-  const title = `${project.name} | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka`;
+  const title = `${project.name} | CSK Safety Nets & Invisible Grills`;
   const description = `${project.description} Project executed by CSK Safety Nets & Invisible Grills in ${project.location}, Bangalore, Karnataka.`;
 
   return {

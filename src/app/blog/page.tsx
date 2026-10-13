@@ -6,14 +6,14 @@ import { generateBreadcrumbSchema } from "@/utils/schema";
 import { fetchContent } from "@/sanity/client";
 
 export const metadata: Metadata = {
-  title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills",
   description:
     "Expert guides on safety nets, invisible grills, and bird exclusion across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
   alternates: {
     canonical: "/blog",
   },
   openGraph: {
-    title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills",
     description:
       "Expert guides on safety nets, invisible grills, and bird exclusion across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/blog",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Safety & Childproofing Blog | CSK Safety Nets & Invisible Grills",
     description:
       "Expert guides on safety nets, invisible grills, and bird exclusion across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

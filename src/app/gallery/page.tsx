@@ -5,14 +5,14 @@ import GalleryFilterClient from "./GalleryFilterClient";
 import { generateBreadcrumbSchema } from "@/utils/schema";
 
 export const metadata: Metadata = {
-  title: "Photo Gallery | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Photo Gallery | CSK Safety Nets & Invisible Grills",
   description:
     "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
   alternates: {
     canonical: "/gallery",
   },
   openGraph: {
-    title: "Photo Gallery | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Photo Gallery | CSK Safety Nets & Invisible Grills",
     description:
       "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/gallery",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Photo Gallery | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Photo Gallery | CSK Safety Nets & Invisible Grills",
     description:
       "Browse photos of safety nets, invisible grills, anti-bird spikes, and ceiling cloth hangers installed by CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

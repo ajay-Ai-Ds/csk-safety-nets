@@ -20,11 +20,11 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!post) {
     return {
-      title: "Article Not Found | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+      title: "Article Not Found | CSK Safety Nets & Invisible Grills",
     };
   }
 
-  const title = `${post.title} | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka`;
+  const title = `${post.title} | CSK Safety Nets & Invisible Grills`;
   const description = `${post.summary} - Expert insights by CSK Safety Nets & Invisible Grills across Bangalore.`;
 
   return {

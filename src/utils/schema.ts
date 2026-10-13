@@ -69,11 +69,9 @@ export function generateLocalBusinessSchema(areaName?: string) {
   return {
     "@context": "https://schema.org",
     "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
-    "@id": `https://csksafetynets.in/#localbusiness${areaName ? `-${areaName.toLowerCase().replace(/\s+/g, "-")}` : ""}`,
-    "name": areaName ? `CSK Safety Nets & Invisible Grills - ${areaName}` : "CSK Safety Nets & Invisible Grills",
-    "url": areaName
-      ? `https://csksafetynets.in/areas/${areaName.toLowerCase().replace(/\s+/g, "-")}`
-      : "https://csksafetynets.in",
+    "@id": "https://csksafetynets.in/#localbusiness",
+    "name": "CSK Safety Nets & Invisible Grills",
+    "url": "https://csksafetynets.in",
     "telephone": "+91 79819 10891",
     "email": "csksafetynets45@gmail.com",
     "image": "https://csksafetynets.in/images/og-image.webp",
@@ -81,8 +79,8 @@ export function generateLocalBusinessSchema(areaName?: string) {
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": areaName ? `${areaName}, Bangalore, Karnataka` : "Bangalore, Karnataka",
-      "addressLocality": areaName || "Bangalore",
+      "streetAddress": "Bangalore, Karnataka",
+      "addressLocality": "Bangalore",
       "addressRegion": "Karnataka",
       "postalCode": "560001",
       "addressCountry": "IN",
@@ -111,13 +109,6 @@ export function generateLocalBusinessSchema(areaName?: string) {
         },
         "position": idx + 1,
       })),
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.94",
-      "reviewCount": "312",
-      "bestRating": "5",
-      "worstRating": "1",
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -157,13 +148,6 @@ export function generateServiceProductSchema(serviceName: string, serviceSlug: s
       "offerCount": "100+",
       "availability": "https://schema.org/InStock",
       "url": `https://csksafetynets.in/services/${serviceSlug}`,
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.93",
-      "reviewCount": "198",
-      "bestRating": "5",
-      "worstRating": "1",
     },
   };
 }
@@ -209,6 +193,7 @@ export function generateServiceSchema(serviceName: string, categoryName?: string
     "description": description || `${serviceName} in Bangalore, Karnataka — premium materials, fast installation, written warranty by CSK Safety Nets & Invisible Grills.`,
     "provider": {
       "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+      "@id": "https://csksafetynets.in/#localbusiness",
       "name": "CSK Safety Nets & Invisible Grills",
       "telephone": "+91 79819 10891",
       "email": "csksafetynets45@gmail.com",
@@ -226,13 +211,6 @@ export function generateServiceSchema(serviceName: string, categoryName?: string
       "@type": "City",
       "name": "Bangalore, Karnataka",
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.94",
-      "reviewCount": "145",
-      "bestRating": "5",
-      "worstRating": "1",
-    },
   };
 }
 
@@ -244,14 +222,15 @@ export function generateServiceAreaSchema(serviceName: string, areaName: string)
     "name": `${serviceName} in ${areaName}, Bangalore`,
     "provider": {
       "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+      "@id": "https://csksafetynets.in/#localbusiness",
       "name": "CSK Safety Nets & Invisible Grills",
       "telephone": "+91 79819 10891",
       "email": "csksafetynets45@gmail.com",
       "url": "https://csksafetynets.in",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": `${areaName}, Bangalore, Karnataka`,
-        "addressLocality": areaName,
+        "streetAddress": "Bangalore, Karnataka",
+        "addressLocality": "Bangalore",
         "addressRegion": "Karnataka",
         "postalCode": "560001",
         "addressCountry": "IN",
@@ -260,13 +239,6 @@ export function generateServiceAreaSchema(serviceName: string, areaName: string)
     "areaServed": {
       "@type": "City",
       "name": `${areaName}, Bangalore, Karnataka`,
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.94",
-      "reviewCount": "120",
-      "bestRating": "5",
-      "worstRating": "1",
     },
   };
 }
@@ -291,7 +263,8 @@ export const generateFAQPageSchema = generateFAQSchema;
 export function generateAggregateRatingSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+    "@id": "https://csksafetynets.in/#localbusiness",
     "name": "CSK Safety Nets & Invisible Grills",
     "url": "https://csksafetynets.in",
     "image": "https://csksafetynets.in/images/og-image.webp",
@@ -304,13 +277,6 @@ export function generateAggregateRatingSchema() {
       "addressRegion": "Karnataka",
       "postalCode": "560001",
       "addressCountry": "IN",
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.94",
-      "reviewCount": "312",
-      "bestRating": "5",
-      "worstRating": "1",
     },
   };
 }

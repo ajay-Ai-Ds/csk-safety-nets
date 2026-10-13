@@ -6,14 +6,14 @@ import MapFrame from "@/components/ui/map-frame";
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore",
+  title: "Contact Us | CSK Safety Nets & Invisible Grills",
   description:
     "Schedule a complimentary on-site measurement or speak directly with our safety engineering team in Bangalore. Call +91 79819 10891 for instant assistance.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact Us | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore",
+    title: "Contact Us | CSK Safety Nets & Invisible Grills",
     description:
       "Schedule a complimentary on-site measurement or speak directly with our safety engineering team in Bangalore. Call +91 79819 10891 for instant assistance.",
     url: "https://csksafetynets.in/contact",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore",
+    title: "Contact Us | CSK Safety Nets & Invisible Grills",
     description:
       "Contact CSK Safety Nets & Invisible Grills for free site measurement & instant quotes in Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

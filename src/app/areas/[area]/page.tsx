@@ -30,11 +30,11 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!areaDetail) {
     return {
-      title: "Area Not Found | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+      title: "Area Not Found | CSK Safety Nets & Invisible Grills",
     };
   }
 
-  const title = `Safety Nets & Invisible Grills in ${areaDetail.name} | CSK Safety Nets & Invisible Grills Bangalore, Karnataka`;
+  const title = `Safety Nets & Invisible Grills in ${areaDetail.name}, Bangalore | CSK`;
   const description = `CSK Safety Nets & Invisible Grills provides professional balcony safety nets, pigeon netting, and SS316 invisible grills in ${areaDetail.name}, Bangalore, Karnataka. Free doorstep inspection across ${areaDetail.localities.slice(0, 5).join(", ")}. Call +91 79819 10891.`;
 
   return {
@@ -102,7 +102,7 @@ export default async function AreaDetailPage({ params }: PageProps) {
     },
     {
       question: `Can CSK Safety Nets & Invisible Grills invisible grills handle the weather in ${areaDetail.name}?`,
-      answer: `Yes. Our invisible grills utilize marine-grade SS316 stainless steel wires wrapped in a clear nylon protective casing. They are highly rustproof and resist Bangalore, Karnataka's extreme heat and coastal sea moisture.`,
+      answer: `Yes. Our invisible grills utilize marine-grade SS316 stainless steel wires wrapped in a clear nylon protective casing. They are highly rustproof and resist Bangalore's summer heat, gusty seasonal monsoon winds, and heavy downpours.`,
     },
     {
       question: `Are your bird control spikes and nets safe and humane?`,
@@ -169,7 +169,7 @@ export default async function AreaDetailPage({ params }: PageProps) {
             {/* CTAs */}
             <div className="flex flex-wrap gap-3 pt-2">
               <a
-                href="tel:+91 79819 10891"
+                href="tel:+917981910891"
                 className="flex items-center justify-center gap-2 bg-[#D4AF37] text-white font-extrabold px-6 py-3 rounded-full hover:bg-amber-200 text-xs shadow-lg transition-transform hover:scale-105"
               >
                 <Phone className="w-4 h-4" />

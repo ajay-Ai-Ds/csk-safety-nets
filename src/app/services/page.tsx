@@ -6,14 +6,14 @@ import { servicesData } from "@/utils/servicesData";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Our Services | CSK Safety Nets & Invisible Grills",
   description:
     "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
   alternates: {
     canonical: "/services",
   },
   openGraph: {
-    title: "Our Services | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Our Services | CSK Safety Nets & Invisible Grills",
     description:
       "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/services",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Services | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Our Services | CSK Safety Nets & Invisible Grills",
     description:
       "Explore 18+ safety net solutions, invisible grills, and ceiling cloth hangers by CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

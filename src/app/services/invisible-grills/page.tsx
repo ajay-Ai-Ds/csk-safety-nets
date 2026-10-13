@@ -6,14 +6,14 @@ import { servicesData } from "@/utils/servicesData";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Invisible Grills | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Invisible Grills | CSK Safety Nets & Invisible Grills",
   description:
     "Stainless steel 316 marine-grade invisible grills for balconies, windows, and staircases by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
   alternates: {
     canonical: "/services/invisible-grills",
   },
   openGraph: {
-    title: "Invisible Grills | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Invisible Grills | CSK Safety Nets & Invisible Grills",
     description:
       "Stainless steel 316 marine-grade invisible grills for balconies, windows, and staircases by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/services/invisible-grills",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Invisible Grills | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Invisible Grills | CSK Safety Nets & Invisible Grills",
     description:
       "Marine-grade SS316 invisible grills installed across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

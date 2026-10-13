@@ -4,7 +4,7 @@ import { Home, ShieldCheck, Lock, Eye, FileText, Phone, Mail, MapPin, CheckCircl
 import { generateBreadcrumbSchema } from "@/utils/schema";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Privacy Policy | CSK Safety Nets & Invisible Grills",
   description:
     "Review CSK Safety Nets & Invisible Grills' official Privacy Policy. We respect customer data privacy, adhere to zero-data-sharing principles, and ensure transparent quote & inspection booking across Bangalore.",
   alternates: {

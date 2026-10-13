@@ -37,7 +37,7 @@ export function ServiceAbout({ name, longDescription, benefits }: AboutProps) {
                   <span>Who Needs It?</span>
                 </div>
                 <p className="text-slate-500 text-xs leading-relaxed">
-                  Apartments above the 2nd floor, families with active kids, pet owners, and coastal properties seeking zero-blockage safety solutions.
+                  Apartments above the 2nd floor, families with active kids, pet owners, and high-rise properties seeking zero-blockage safety solutions.
                 </p>
               </div>
 

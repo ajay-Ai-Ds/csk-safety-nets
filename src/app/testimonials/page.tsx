@@ -3,14 +3,14 @@ import { generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/utils
 import TestimonialsClient from "./TestimonialsClient";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills",
   description:
     "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Bangalore, including Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road. Rated 4.9/5 for safety netting and invisible grills.",
   alternates: {
     canonical: "/testimonials",
   },
   openGraph: {
-    title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills",
     description:
       "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Bangalore, including Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/testimonials",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Customer Reviews & Testimonials | CSK Safety Nets & Invisible Grills",
     description:
       "Read 150+ verified reviews for CSK Safety Nets & Invisible Grills across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

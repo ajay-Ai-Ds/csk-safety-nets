@@ -6,14 +6,14 @@ import { servicesData } from "@/utils/servicesData";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+  title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills",
   description:
     "Rust-proof ceiling-mounted pulley cloth drying hangers installed in balconies and utility spaces by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
   alternates: {
     canonical: "/services/cloth-hangers",
   },
   openGraph: {
-    title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills",
     description:
       "Rust-proof ceiling-mounted pulley cloth drying hangers installed in balconies and utility spaces by CSK Safety Nets & Invisible Grills across Bangalore: Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     url: "https://csksafetynets.in/services/cloth-hangers",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills - Safety Nets & Invisible Grills Bangalore, Karnataka",
+    title: "Ceiling Cloth Hangers | CSK Safety Nets & Invisible Grills",
     description:
       "Space-saving ceiling cloth hangers installed across Bangalore serving Whitefield, Koramangala, Indiranagar, HSR Layout, Electronic City, Marathahalli, and Sarjapur Road.",
     images: ["/images/og-image.webp"],

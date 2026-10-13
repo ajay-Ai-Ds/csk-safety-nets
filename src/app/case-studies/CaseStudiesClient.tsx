@@ -41,23 +41,23 @@ const caseStudiesData: CaseStudy[] = [
     solution:
       "CSK Safety Nets & Invisible Grills conducted an on-site structural assessment and anchored double-knotted, UV-stabilized copolymer safety netting using heavy SS304 eyebolts every 15cm into the structural concrete slab.",
     result:
-      "Completed in 2.5 hours with zero facade obstruction. The net has withstood high coastal gusts and monsoons in Bangalore while providing certified fall safety.",
+      "Completed in 2.5 hours with zero facade obstruction. The net has withstood gusty high-rise monsoon winds in Bangalore while providing reliable fall safety.",
     quote:
       "CSK Safety Nets & Invisible Grills gave our family complete freedom on our balcony. The installation is remarkably neat and strong.",
     clientName: "Srinivas & Priya V., Whitefield",
   },
   {
     id: 2,
-    title: "Panoramic Sea-View Invisible Grills at Ocean Crest Penthouse",
+    title: "Panoramic Skyline Invisible Grills at High-Rise Penthouse",
     location: "Koramangala, Bangalore, Karnataka",
     serviceCategory: "Balcony Invisible Grills",
     image: "/images/services/shyambalconygrills.jpg",
     challenge:
-      "A penthouse resident needed robust fall protection for grandchildren and a golden retriever without obstructing a breathtaking 180-degree skyline view or rusting from coastal heavy rain and weather.",
+      "A penthouse resident needed robust fall protection for grandchildren and a golden retriever without obstructing a breathtaking 180-degree skyline view or degrading under intense seasonal monsoons.",
     solution:
       "Installed marine-grade SS316 multi-strand stainless steel cable invisible grills spaced at 2-inch intervals, fitted inside heavy-duty anodized aluminium structural channels.",
     result:
-      "The cables support over 400kg tensile load force per line while remaining virtually invisible from inside the living room, completely immune to sea-air corrosion.",
+      "The cables maintain high tensile tension per line while remaining virtually invisible from inside the living room, completely immune to outdoor rust and weathering.",
     quote:
       "The invisible grills look extraordinarily sleek. Our skyline view remains pristine and the kids play safely.",
     clientName: "Cdr. (Retd.) Rajesh Nair, Koramangala",
