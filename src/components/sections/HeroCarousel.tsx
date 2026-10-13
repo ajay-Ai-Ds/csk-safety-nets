@@ -101,7 +101,7 @@ export default function HeroCarousel() {
   const slide = slides[current];
 
   return (
-    <section className="relative min-h-[580px] sm:min-h-[640px] md:min-h-[700px] bg-[#1A0305] overflow-hidden flex items-center">
+    <section className="relative min-h-[580px] sm:min-h-[640px] md:min-h-[700px] bg-slate-950 overflow-hidden flex items-center">
       {/* Background Image Carousel */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -120,9 +120,9 @@ export default function HeroCarousel() {
             sizes="100vw"
             className="object-cover object-center"
           />
-          {/* Crimson gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1A0305] via-[#1A0305]/85 to-[#A61E22]/30 sm:to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1A0305] via-transparent to-black/30" />
+          {/* Clean neutral scrim — keeps headline text crisp while letting real installation images shine with maximum clarity */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/10 lg:to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-black/25" />
         </motion.div>
       </AnimatePresence>
 
@@ -230,7 +230,7 @@ export default function HeroCarousel() {
 
           {/* Trust Metrics Card (Right, Desktop) */}
           <div className="hidden lg:flex lg:col-span-4 flex-col gap-4">
-            <div className="bg-[#1A0305]/70 backdrop-blur-xl border border-white/10 p-6 rounded-3xl text-white shadow-2xl flex flex-col gap-4">
+            <div className="bg-black/60 backdrop-blur-xl border border-white/10 p-6 rounded-3xl text-white shadow-2xl flex flex-col gap-4">
               <div className="flex items-center gap-3">
                 <div className="p-3 bg-[#A61E22] rounded-2xl text-[#D4AF37]">
                   <Shield className="w-6 h-6" />
